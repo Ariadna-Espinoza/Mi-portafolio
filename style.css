@@ -1,0 +1,13 @@
+ /* Estilos para el carrus
+
+        /* Estilos para el carrusel */
+        .carousel {
+            display: block;
+            width: 300px; /* Ajusta el ancho según tus necesidades */
+            overflow: hidden;
+        }
+        .carousel img {
+            width: 100%;
+            height: auto;
+            display: none;
+        }

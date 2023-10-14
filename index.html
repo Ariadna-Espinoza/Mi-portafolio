@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Titulo de mi página, va verse en la pestaña -->
+    <title>Arco Aris</title>
+
+    <!-- Link al css de booststrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Link a iconos de booststrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+
+    <!-- Link a mi css, siempre va hasta abajo de los archivos externos -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Poner contenedores es importante para que nuestro contenido sea responsivo <3 -->
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+            <a href="/"
+                class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                <img class="mx-2" src="assets/LOGO_ARCO_ARIS.png" alt="Logo" width="40" height="40">
+                <!-- <span class="fs-4">Simple header</span> -->
+            </a>
+
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="#sobre-mi" class="nav-link text-dark">Sobre mí</a></li>
+                <li class="nav-item"><a href="#proyectos" class="nav-link text-dark">Proyectos</a></li>
+                <li class="nav-item"><a href="#contacto" class="nav-link text-dark">Contacto</a></li>
+            </ul>
+        </header>
+
+
+        <section id="sobre-mi" class="vh-100 px-4 py-5 my-5 text-center d-flex justify-content-center align-items-center">
+            <div>
+                <img class="d-block mx-auto mb-4" src="assets/arcoiris.gif" alt="" width="500" >
+            <h1 id="titulo" class="display-5 fw-bold text-body-emphasis">Ariadna Espinoza</h1>
+            <h5 class="fw-bold text-body-emphasis">Futura Licenciada en Diseño Gràfico y Artista</h5>
+
+            <div class="col-lg-6 mx-auto">
+              <p class="lead mb-4">Actualmente estudiante con una graduación cada vez más cerca. Además de dedicarme al diseño soy artista, ilustradora y escritora; "por eso me encanta el story telling".</p> 
+              <p class="lead mb-4">Soy una fiel creyente de que la multidisciplinariedad es más que necesaria para lograr un excelente resultado por lo que me encanta adquirir todo tipo de conocimientos para crear increíbles proyectos.</p>
+              <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <a href="#contacto" class="nav-link text-dark">
+                    <button type="button" class="btn btn-outline-secondary btn-lg px-4">Contáctame</button>
+                </a>
+              </div>
+            </div>
+            </div>
+        </section>
+
+        <section id="habilidades" class="text-center px-4 py-5" id="featured-3">
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+              <div class="feature col">
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3">
+                  <img class="d-block mx-auto mb-4" src="assets/Godet.png" alt="" width="65" height="65">
+                </div>
+                <h3 class="fs-2 text-body-emphasis">PORTAFOLIO</h3>
+                <p>Consulta ejemplos de mis diseños, ilustraciones y otras creaciones, además los proyectos que he realizado para mis clientes</p>
+                <a href="#" class="icon-link">
+                  Ver más 
+                  <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+                </a>
+              </div>
+              <div class="feature col">
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3">
+                  <img class="d-block mx-auto mb-4" src="assets/Cara_feliz.png" alt="" width="65" height="65">
+                </div>
+                <h3 class="fs-2 text-body-emphasis">CURRICULUM</h3>
+                <p>Descubre donde he estudiado; los eventos, convocatorias y talleres en los que he participado además de todos los conocimientos que he adquirido gracias a estos.</p>
+                <a href="#" class="icon-link">
+                  Ver más
+                  <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+                  
+                </a>
+              </div>
+              <div class="feature col">
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3">
+                  <img class="d-block mx-auto mb-4" src="assets/Talleres.png" alt="" width="65" height="65">
+                </div>
+                <h3 class="fs-2 text-body-emphasis">COMPARTIENDO CONOCIMIENTOS</h3>
+                <p>Conoce las clases y talleres que imparto, descubre las diferentes técnicas y conocimientos que puedes adquirir para que puedas hacer tus propias creaciones </p>
+                <a href="#" class="icon-link">
+                  Ver más
+                  <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+                </a>
+              </div>
+            </div>
+        </section>
+
+        <section id="proyectos" class="vh-100 px-4 py-5" id="custom-cards">
+            <h2 class="pb-2 border-bottom">Proyectos</h2>
+        
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-2 py-4">
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('assets/circulo2.gif');">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Mi clon de google</h3>
+                    <ul class="d-flex list-unstyled mt-auto">
+                      <li class="me-auto">
+                        <img src="assets/Megafono.png" alt="TC PRO" width="32" height="32" class="rounded-circle border border-white">
+                      </li>
+                      <li class="d-flex align-items-center me-3">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                        <small>TC PRO</small>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                        <small>2023</small>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('assets/dona.gif');">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Mi portafolio</h3>
+                    <ul class="d-flex list-unstyled mt-auto">
+                      <li class="me-auto">
+                        <img src="assets/Megafono.png" alt="Arco Aris" width="32" height="32" class="rounded-circle border border-white">
+                      </li>
+                      <li class="d-flex align-items-center me-3">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                        <small>TC PRO</small>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                        <small>2023</small>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('assets/circulo.gif');">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Mi primera pagina</h3>
+                    <ul class="d-flex list-unstyled mt-auto">
+                      <li class="me-auto">
+                        <img src="assets/Megafono.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                      </li>
+                      <li class="d-flex align-items-center me-3">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                        <small>TC PRO</small>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                        <small>2023</small>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+
+
+        <section id="contacto" class="px-4 py-5 my-5 text-center">
+            <img class="d-block mx-auto mb-4" src="/assets/correo_gif.webp" alt="" width="100" >
+            <h1 class="display-5 fw-bold text-body-emphasis">¿Quieres saber más?</h1>
+            <div class="col-lg-6 mx-auto">
+              <p class="lead mb-4">Si tienes alguna pregunta sobre los talleres, las técnicas o cotizaciones no dudes en hacérmelo saber
+              </p>
+              <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <a class="fs-2 text-dark" target="_blank" href="mailto:ariadnohemimi@gmail.com">
+                <button type="button" class="btn btn-outline-secondary btn-lg px-4">¡Contáctame!</button></a>
+              </div>
+            </div>
+        </section>
+
+
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                    <svg class="bi" width="30" height="24">
+                        <use xlink:href="#bootstrap"></use>
+                    </svg>
+                </a>
+                <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Arco Aris - Ariadna Espinoza</span>
+            </div>
+            <!-- Iconos dentro del footer -->
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex text-dark">
+                <a class="fs-2 text-dark" target="_blank" href="https://twitter.com/arco_aris">
+                    <li class="bi bi-twitter-x ms-3"></li>
+                </a>
+                <a class="fs-2 text-dark" target="_blank" href="https://www.facebook.com/arcoarise">
+                    <li class="bi bi-facebook ms-3"></li>
+                </a>
+                <a class="fs-2 text-dark" target="_blank" href="https://www.instagram.com/arco_aris/">
+                    <li class="bi bi-instagram ms-3"></li>
+                </a>
+                <a class="fs-2 text-dark" target="_blank" href="https://github.com/Ariadna-Espinoza">
+                    <li class="bi bi-github ms-3"></li>
+                </a>
+            </ul>
+        </footer>
+    </div>
+
+    <!-- Link a el código de Js de bootstrap para que funciones los elementos dinámicos: carrusel, dropdowns, tooltips -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <!-- Link a el código de la biblioteca que crea el efecto de escribir -->
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+    <!-- EL link que une mi código de Javascript, siempre debe ir al último, pero antes de la etiqueta body -->
+    <script src="script.js"></script>
+</body>
+
+</html>
