@@ -26,4 +26,15 @@ www.linkedin.com/in/ariadna-nohemi-espinoza-ramos-524717296
 
 <a href="https://www.linkedin.com/in/ariadna-nohemi-espinoza-ramos-524717296/"><img src="[https://www.felberpr.com/wp-content/uploads/linkedin-logo.png](https://media.licdn.com/dms/image/D4E03AQFSSn3BbK_ZEA/profile-displayphoto-shrink_200_200/0/1697306437779?e=1703116800&v=beta&t=8MUvQLPy-Z4TgY8Nr8hOmWBaD_ufLkfVFDUdjP5yE5k)https://media.licdn.com/dms/image/D4E03AQFSSn3BbK_ZEA/profile-displayphoto-shrink_200_200/0/1697306437779?e=1703116800&v=beta&t=8MUvQLPy-Z4TgY8Nr8hOmWBaD_ufLkfVFDUdjP5yE5k" width="30"></img></a>
 
+# Otros proyectos del bootcamp TC PRO:
+
+# Portafolio: 
+https://coruscating-taiyaki-d80d95.netlify.app/
+
+# Clon de Google: 
+https://meek-frangipane-49221f.netlify.app/
+
+# Mi primera pagina:
+https://radiant-gumption-406fa4.netlify.app/
+
 © 2023 Ariadna Esp (Programa Technolochicas PRO)
